@@ -1,5 +1,7 @@
-package org.example;
+package org.example.repository;
 
+
+import org.example.model.Post;
 
 import java.util.List;
 import java.util.Optional;

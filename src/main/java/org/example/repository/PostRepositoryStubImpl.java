@@ -1,4 +1,6 @@
-package org.example;
+package org.example.repository;
+import org.example.model.Post;
+import org.example.exception.NotFoundException;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
@@ -6,7 +8,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 
-import static org.example.GeneratorId.getGeneratorId;
+import static org.example.generator.GeneratorId.getGeneratorId;
 
 @Repository
 public class PostRepositoryStubImpl implements PostRepository {
