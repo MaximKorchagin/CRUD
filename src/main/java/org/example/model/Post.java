@@ -1,23 +1,16 @@
-package org.example;
+package org.example.model;
 
 public class Post {
-    private long id;
+    private final long ID;
     private String content;
 
-    public Post() {
-    }
-
     public Post(long id, String content) {
-        this.id = id;
+        this.ID = id;
         this.content = content;
     }
 
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
+    public long getID() {
+        return ID;
     }
 
     public String getContent() {
