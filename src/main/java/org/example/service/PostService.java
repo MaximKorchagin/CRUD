@@ -1,7 +1,7 @@
-package org.example.controller_service_repository;
+package org.example.service;
 
 
-import org.example.controller_service_repository.PostRepository;
+import org.example.repository.PostRepository;
 import org.example.exception.NotFoundException;
 import org.example.model.Post;
 

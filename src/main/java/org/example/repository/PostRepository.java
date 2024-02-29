@@ -1,4 +1,4 @@
-package org.example.controller_service_repository;
+package org.example.repository;
 
 import org.example.model.Post;
 

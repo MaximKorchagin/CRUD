@@ -1,9 +1,10 @@
-package org.example.controller_service_repository;
+package org.example.controller;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonIOException;
 import org.example.exception.NotFoundException;
 import org.example.model.Post;
+import org.example.service.PostService;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;

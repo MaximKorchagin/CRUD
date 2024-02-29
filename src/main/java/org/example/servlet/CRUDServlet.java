@@ -1,9 +1,10 @@
-package org.example;
+package org.example.servlet;
 
-import org.example.controller_service_repository.PostController;
+import org.example.controller.PostController;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import static org.example.Const.*;
+
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -14,7 +15,7 @@ public class CRUDServlet extends HttpServlet {
 
     @Override
     public void init() {
-        final var context = new AnnotationConfigApplicationContext(org.example.JavaConfig.class);
+        final var context = new AnnotationConfigApplicationContext(org.example.config.JavaConfig.class);
         controller = context.getBean(PostController.class);
     }
 

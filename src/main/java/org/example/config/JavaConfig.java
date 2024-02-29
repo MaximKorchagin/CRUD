@@ -1,10 +1,10 @@
-package org.example;
+package org.example.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.example.controller_service_repository.PostController;
-import org.example.controller_service_repository.PostRepository;
-import org.example.controller_service_repository.PostService;
+import org.example.controller.PostController;
+import org.example.repository.PostRepository;
+import org.example.service.PostService;
 
 
 @Configuration
